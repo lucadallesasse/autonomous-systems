@@ -8,3 +8,5 @@ In the repo you will find 3 different folders dealing with the 3 assignments giv
 2. [Geometric Tracking Controller](https://github.com/lucadallesasse/autonomous-systems/blob/main/autsys-2022-geometric-controller-lucadallesasse/README.md)
 3. [Trajectory Generation](https://github.com/lucadallesasse/autonomous-systems/blob/main/autsys-2022-trajectory-generation-lucadallesasse/README.md)
 
+
+![simrunning](figures/result.gif)

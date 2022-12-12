@@ -1,0 +1,39 @@
+# sets maximal velocity and acceleration values along the trajectory
+dynamic_params: {
+  max_v: 5.0,
+  max_a: 2.0
+}
+
+# your waypoints here. Think about how to best add any number of waypoints
+# and the according velocity and acceleration constraints.
+waypoints: {
+  #First loop
+    p1 : { x: 10.0, y: 0.0,  z: 3.0},
+    p2 : { x: 30.0, y: 10.0, z: 3.0},
+    p3 : { x: 35.0, y: 25.0, z: 13.0},
+    p4 : { x: 35.0, y: 35.0, z: 6.0},
+    p5 : { x: 30.0, y: 37.0, z: 8.0},
+    p6 : { x: 25.0, y: 39.0, z: 11.0},
+    #Begin of the tunnel
+    p7 : { x: 16.0, y: 39.0, z: 11.0},
+    p8 : { x: 12.0, y: 39.0, z: 11.0},
+    p9 : { x: 0.0, y: 20.0, z: 3.0},
+
+  #Second loop
+    p10 : { x: 10.0, y: 0.0,  z: 3.0},
+    p11 : { x: 20.0, y: 0.0,  z: 3.0},
+    p12 : { x: 30.0, y: 10.0, z: 3.0},
+    p13 : { x: 35.0, y: 25.0, z: 13.0},
+    p14 : { x: 35.0, y: 35.0, z: 6.0},
+    p15 : { x: 30.0, y: 37.0, z: 8.0},
+    p16 : { x: 25.0, y: 39.0, z: 11.0},
+    #Begin of the tunnel
+    p17 : { x: 16.0, y: 39.0, z: 11.0},
+    p18 : { x: 14.0, y: 39.0, z: 11.0},
+    v18 : { x: 0.0,  y: 0.0,  z: 0.0},
+    a18 : { x: 0.0,  y: 0.0,  z: 0.0},
+    p19 : { x: 10.0, y: 39.0, z: 11.0},
+    a19 : { x: 0.0,  y: 0.0,  z: 0.0},
+    p20 : { x: 5.0, y: 20.0, z: 5.5},
+}
+

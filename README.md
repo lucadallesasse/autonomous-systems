@@ -1,6 +1,6 @@
 # autonomous-systems
 
-In the repo you will find the 3 assignments given during the Autonomous Systems course @ TUM.
+Assignments given during the Autonomous Systems course @ TUM.
 
 
 #### Table of contents
